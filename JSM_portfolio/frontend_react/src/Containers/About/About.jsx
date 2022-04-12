@@ -1,10 +1,12 @@
 import React, {useEffect, useState} from 'react'
 import './About.scss'
-import {motion} from 'framer-motion'
+import {motion} from 'framer-motion';
+import {images} from '../../Constants';
 
 const abouts = [
-  {title: 'Web Development', description: ' I am a pretty good web developer', imgUrl:''  },
-  {title: 'UX/UI', description: ' I make really good designs too', imgUrl:''  },
+  {title: 'Web Development', description: ' I am a pretty good web developer', imgUrl: images.development },
+  {title: 'UX/UI', description: ' I make really good designs too', imgUrl:images.uiux},
+  {title: 'Web Design', description: ' Let me help you design a worldclass site', imgUrl: images.design }
   // {title: 'Web Development', description: ' I am a pretty good web developer', imgUrl:''  }
 ];
 
@@ -12,7 +14,7 @@ const About = () => {
   return (
     <>
     <h2 className='head-text'>
-      I know that <span>Good Design</span> <br /> means <span>Good Business</span>
+      I know that <span>Good Apps</span> <br /> means <span>Good Business</span>
     </h2>
 
     <div className="app__profiles">

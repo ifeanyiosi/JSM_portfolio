@@ -35,6 +35,9 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import developer from '../assets/developer.png';
+import design from '../assets/design.jpg'
+import development from '../assets/development.jpg'
+import uiux from '../assets/uiux.jpg'
 
 export default {
   email,
@@ -71,4 +74,7 @@ export default {
   skype,
   spotify,
   developer,
+  design,
+  development,
+  uiux
 };
