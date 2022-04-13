@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react'
 import './About.scss'
 import {motion} from 'framer-motion';
 import {images} from '../../Constants';
+import { urlFor, client } from '../../client';
 
 const abouts = [
   {title: 'Web Development', description: ' I am a pretty good web developer', imgUrl: images.development },
@@ -11,6 +12,18 @@ const abouts = [
 ];
 
 const About = () => {
+
+  // const [abouts, setAbouts] = useState([]);
+
+  // useEffect(() => {
+  //   const query = '*[_type == "abouts"]';
+  //   client.fetch(query)
+  //   .then((data) => setAbouts(data))
+    
+
+
+  // }, []);
+  
   return (
     <>
     <h2 className='head-text'>
