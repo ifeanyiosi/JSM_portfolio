@@ -10,6 +10,7 @@ const App = () => {
         <Navbar/>
         <Header/>
         <About/>
+        <Works/>
         <Skills/>
         <Testimonials/>
         <Footer/>

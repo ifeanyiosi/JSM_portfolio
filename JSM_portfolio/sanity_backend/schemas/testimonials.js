@@ -1,30 +1,30 @@
 export default {
     name:'testimonials',
-    title: 'Testimonials',
+    title:'Testimonials',
     type: 'document',
-    fields: [
-        {
+    fields:[
+        { 
             name:'name',
-            title: 'Name',
+            title:'Name',
             type: 'string'
         },
         {
             name:'company',
-            title: 'Company',
-            type: 'string'
+            title:'Company',
+            type:'string'
         },
         {
-            name:'imageurl',
-            title: 'ImgUrl',
+            name:'imgurl',
+            title:'ImgUrl',
             type: 'image',
-            options:{
-                hotspot: true
-            }
-        },
+            options: {
+              hotspot: true,
+            },
+        },  
         {
             name:'feedback',
-            title: 'Feedback',
-            type: 'string'
+            title:'Feedback',
+            type:'string'
         }
     ]
 }

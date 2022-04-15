@@ -4,6 +4,8 @@ import { images } from '../../Constants'
 import {HiMenuAlt4, HiX } from 'react-icons/hi'
 import {motion} from 'framer-motion'
 import { useState } from 'react'
+// import SocialMedia from './SocialMedia'
+// import NavigationDots from './NavigationDots'
 
 const Navbar = () => {
 const [toggle, setToggle] = useState(false)
