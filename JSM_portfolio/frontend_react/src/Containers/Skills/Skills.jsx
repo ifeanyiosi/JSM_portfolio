@@ -31,23 +31,72 @@ const Skills = () => {
 
       <div className='app__skills-container'>
         <motion.div className='app__skills-list'>
-          {skills.map((skills) => (
+          
             <motion.div  
             whileInView={{opacity:[0,1]}}
             transition={{duration: 0.5}}
             className="app__skills-item app__flex"
-            key={skill.name} 
+            // key={skills.name} 
             >
-                <div className='app__flex' style={{ backgroundColor: skill.bgColor}}>
-                  <img src="" alt="" />
+                <div className='app__flex'>
+                  <img src={images.react} alt="" />
 
                 </div>
 
                 <p className='p-text'>
-
+                  React
                 </p>
             </motion.div>
-          ))}
+          
+
+           <motion.div  
+            whileInView={{opacity:[0,1]}}
+            transition={{duration: 0.5}}
+            className="app__skills-item app__flex"
+            // key={skills.name} 
+            >
+                <div className='app__flex'>
+                  <img src={images.figma} alt="" />
+
+                </div>
+
+                <p className='p-text'>
+                  Figma
+                </p>
+            </motion.div>
+
+             <motion.div  
+            whileInView={{opacity:[0,1]}}
+            transition={{duration: 0.5}}
+            className="app__skills-item app__flex"
+            // key={skills.name} 
+            >
+                <div className='app__flex'>
+                  <img src={images.node} alt="" />
+
+                </div>
+
+                <p className='p-text'>
+                  Node JS
+                </p>
+            </motion.div>
+
+
+            <motion.div  
+            whileInView={{opacity:[0,1]}}
+            transition={{duration: 0.5}}
+            className="app__skills-item app__flex"
+            // key={skills.name} 
+            >
+                <div className='app__flex'>
+                  <img src={images.git} alt="" />
+
+                </div>
+
+                <p className='p-text'>
+                  Git
+                </p>
+            </motion.div>
 
         </motion.div>
 
