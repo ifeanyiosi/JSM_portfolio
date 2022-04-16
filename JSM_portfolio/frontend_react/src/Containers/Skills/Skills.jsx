@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import {motion} from 'framer-motion'
 import ReactTooltip from 'react-tooltip'
-import { AppWrap} from '../../wrapper'
+import { AppWrap, MotionWrap} from '../../wrapper'
 import {urlFor, client} from '../../client'
 import { images } from '../../Constants'
 import './Skills.scss'
@@ -81,6 +81,39 @@ const Skills = () => {
                 </p>
             </motion.div>
 
+             <motion.div  
+            whileInView={{opacity:[0,1]}}
+            transition={{duration: 0.5}}
+            className="app__skills-item app__flex"
+            // key={skills.name} 
+            >
+                <div className='app__flex'>
+                  <img src={images.XD} alt="" />
+
+                </div>
+
+                <p className='p-text'>
+                  Adobe XD
+                </p>
+            </motion.div>
+
+             <motion.div  
+            whileInView={{opacity:[0,1]}}
+            transition={{duration: 0.5}}
+            className="app__skills-item app__flex"
+            // key={skills.name} 
+            >
+                <div className='app__flex'>
+                  <img src={images.javascript} alt="" />
+
+                </div>
+
+                <p className='p-text'>
+                  Javascript
+                </p>
+            </motion.div>
+
+{/* experience section */}
 
             <motion.div  
             whileInView={{opacity:[0,1]}}
@@ -100,9 +133,30 @@ const Skills = () => {
 
         </motion.div>
 
+        <motion.div className='app__skills-exp'>
+
+          <>
+          <motion.div
+          whileInView={{opacity:[0,1]}}
+            transition={{duration: 0.5}}
+            className="app__skills-exp-work app__flex"
+            // data-tip
+          >
+            <h4 className='bold-text'>
+
+            </h4>
+
+            <p className='p-text'>
+
+            </p>
+          </motion.div>
+          </>
+
+        </motion.div>
+
       </div>
     </>
   )
 }
 
-export default Skills
+export default AppWrap(MotionWrap(Skills, 'app__skills' ), 'skills', 'app__whitebg') ;

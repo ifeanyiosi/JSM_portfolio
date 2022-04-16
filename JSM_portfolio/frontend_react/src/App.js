@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
 
-import {About, Footer, Header, Skills, Testimonials, Works } from './Containers'
+import {About, Footer, Header, Skills, Works } from './Containers'
 import './App.scss'
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
         <About/>
         <Works/>
         <Skills/>
-        <Testimonials/>
+        {/* <Testimonials/> */}
         <Footer/>
     </div>
   )

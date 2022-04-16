@@ -44,6 +44,8 @@ import amazon from '../assets/amazon.png'
 import bank from '../assets/bank.png'
 import airbda from '../assets/airbda.png'
 import music from '../assets/music.png'
+import XD from '../assets/XD.png'
+
 export default {
   email,
   mobile,
@@ -87,5 +89,6 @@ export default {
   amazon,
   bank,
   airbda,
-  music
+  music,
+  XD
 };
