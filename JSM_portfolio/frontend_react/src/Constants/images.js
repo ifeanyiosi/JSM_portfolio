@@ -28,7 +28,7 @@ import circle from '../assets/circle.svg';
 import logo from '../assets/IfeanyiOsi.png';
 
 import adidas from '../assets/adidas.png';
-import amazon from '../assets/amazon.png';
+
 import asus from '../assets/asus.png';
 import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
@@ -38,7 +38,12 @@ import developer from '../assets/developer.png';
 import design from '../assets/design.jpg'
 import development from '../assets/development.jpg'
 import uiux from '../assets/uiux.jpg'
-
+import netflix from '../assets/netflix.png'
+import game from '../assets/game.png'
+import amazon from '../assets/amazon.png'
+import bank from '../assets/bank.png'
+import airbda from '../assets/airbda.png'
+import music from '../assets/music.png'
 export default {
   email,
   mobile,
@@ -67,7 +72,7 @@ export default {
   circle,
   logo,
   adidas,
-  amazon,
+  
   asus,
   bolt,
   nb,
@@ -76,5 +81,11 @@ export default {
   developer,
   design,
   development,
-  uiux
+  uiux,
+  netflix,
+  game,
+  amazon,
+  bank,
+  airbda,
+  music
 };
